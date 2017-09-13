@@ -29,7 +29,7 @@ public class GuruLoginStep
 	@Then("^Login is successful$")
 	public void login_is_successful() throws Throwable 
 	{
-		
+		lsux = new LoginSuccs();
 	  // lsux.loginverify();
 		Assert.assertTrue(lsux.loginverify());
 	   
