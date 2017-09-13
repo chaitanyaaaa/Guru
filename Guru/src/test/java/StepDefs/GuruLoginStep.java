@@ -10,10 +10,11 @@ import junit.framework.Assert;
 public class GuruLoginStep 
 {
 	LoginSuccs lsux;
+	LoginPage lpage;
 	@Given("^when user is on login page$")
 	public void when_user_is_on_login_page() throws Throwable 
 	{
-		LoginPage lpage = new LoginPage();
+		lpage = new LoginPage();
 			
 	   
 	}
